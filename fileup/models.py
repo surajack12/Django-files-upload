@@ -1,0 +1,5 @@
+from django.db import models 
+
+class ProfileImage(models.Model):
+    image = models.models.FileField(upload_to='profile/%Y/%m/%d')
+    
