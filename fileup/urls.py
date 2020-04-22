@@ -6,7 +6,7 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('upload/', views.upload ,name="upload"),
+    path('', views.upload ,name="upload"),
 ]
 
 if settings.DEBUG:
